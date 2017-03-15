@@ -73,6 +73,7 @@ html {
 
 body {
     margin: 0;
+    background-color: black;
 }
 
 /* ==========================================================================
@@ -108,6 +109,7 @@ a:hover {
 h1 {
     font-size: 2em;
     margin: 0.67em 0;
+    color:white;
 }
 
 /**
@@ -289,6 +291,7 @@ textarea {
 button,
 input {
     line-height: normal;
+    background-color: blue;
 }
 
 /**
@@ -310,6 +313,11 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
+
+button, input {
+    line-height: normal;
+    color: chartreuse;
+}
 
 button,
 html input[type="button"], /* 1 */

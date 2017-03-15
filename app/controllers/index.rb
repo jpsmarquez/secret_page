@@ -57,3 +57,6 @@ password = params[:password]
 erb :sign_in
 end
 
+get '/web' do
+redirect to ("#{"https://arxiv.org/abs/1512.02388"}")
+end
